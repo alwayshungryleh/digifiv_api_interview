@@ -23,3 +23,5 @@ DB_PASSWORD=
 
 -Run postman remove3randominventory
 -It should remove 3 random item and then return a json containing the balance of each items.
+
+-Used lockforupdate to avoid concurrency issue for requirement #1

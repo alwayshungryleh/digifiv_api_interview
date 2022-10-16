@@ -86,6 +86,27 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "reset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/digifiv_api_interview/public/api/v1/resettoten",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"digifiv_api_interview",
+						"public",
+						"api",
+						"v1",
+						"resettoten"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
