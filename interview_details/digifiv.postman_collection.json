@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "010b4225-58a5-4796-830b-ea880612ddd7",
+		"name": "digifiv",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2375224"
+	},
+	"item": [
+		{
+			"name": "TestPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/digifiv_api/public/api/test",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"digifiv_api",
+						"public",
+						"api",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestGET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/digifiv_api/public/",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"digifiv_api",
+						"public",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getinventories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/digifiv_api_interview/public/api/v1/getinventories",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"digifiv_api_interview",
+						"public",
+						"api",
+						"v1",
+						"getinventories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove3randominventory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost/digifiv_api_interview/public/api/v1/remove3randominventory",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"digifiv_api_interview",
+						"public",
+						"api",
+						"v1",
+						"remove3randominventory"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
